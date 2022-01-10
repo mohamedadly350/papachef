@@ -1,0 +1,113 @@
+
+/* general */
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-contener{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+.contener{
+    width: 80%;
+    margin: auto;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    
+}
+/* header */
+.header-content .logo {
+    width: 30%;
+    float: left;
+}
+
+.header-content .logo img {
+    width: 75px;
+}
+.nav {
+    width: 40%;
+    float: left;
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    padding: 45px 25px;
+    font-size: 22px;
+    
+}
+.header-content .nav li a{
+    color: #23170c;
+    text-decoration: none;
+}
+.search {
+    width: 30%;
+    float: right;
+    padding: 50px 0px;
+}
+
+/* sectin-baner */
+.sectin-baner{
+    height: 65vh;
+    background-image: url(../images/pexels-luna-lovegood-4087609.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+
+}
+.baner-content{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.titel-paner{
+    font-size: 55px;
+    text-transform: capitalize;
+    font-family: fantasy;
+    color: #23170c;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+    
+}
+.paragraf-paner{
+    font-size: 40px;
+    /* text-transform: capitalize; */
+    font-family: fantasy;
+    color: #23170c;
+    text-align: center;
+
+
+}
+/* section Our-message */
+.Ourmessage-content{
+    position: relative;
+}
+.item{
+    position: absolute;
+    width: 120px;
+    height:40px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    border: 2px;
+    border-color: #23170c;
+    
+}
+
+.item-opening{
+    float: left;
+   
+
+}
+.item-phone{
+    float: left;
+}
+
+.item-location{
+    float: left;
+}
